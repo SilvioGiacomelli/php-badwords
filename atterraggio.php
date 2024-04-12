@@ -14,11 +14,12 @@ $sostituto = str_replace($censurata, '***', $paragrafo);
   <title>Atterraggio</title>
 </head>
 
-<p>Parola che dovrà essere censura: <?php echo $censurata ?></p>
-<p>Paragrafo senza censura: <?php echo $paragrafo ?></p>
-<p>Parola che dovrà essere censura: <?php echo $sostituto ?></p>
-
 <body>
+  <p>Parola che dovrà essere censura: <?php echo $censurata ?></p>
+  <p>Il paragrafo è lungo <?php echo strlen($paragrafo) ?></p>
+  <p>Paragrafo senza censura: <?php echo $paragrafo ?></p>
+  <p>Parola che dovrà essere censura: <?php echo $sostituto ?></p>
+  <p>Il paragrafo è lungo <?php echo strlen($sostituto) ?></p>
 
 </body>
 
